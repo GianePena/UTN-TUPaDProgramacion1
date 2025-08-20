@@ -25,12 +25,12 @@ print(f"Soy {nombre} {apellido}, tengo {edad} y vivo en {lugar_de_residencia}")
 radio=input("Ingrese radio de un circulo: ")
 PI=3.14
 area=PI*(float(radio)**2)
-print(area)
+print(f"El area de un circulo de radio {radio} es {area}")
 
 # 5) Crear un programa que pida al usuario una cantidad de segundos e imprima por pantalla a
 # cuántas horas equivale.
 
-segundos= float(input("Cantidad de segundos: "))
+segundos= int(input("Cantidad de segundos: "))
 horas=segundos/3600
 print(f"{segundos} segundos  son {horas} horas")
 
