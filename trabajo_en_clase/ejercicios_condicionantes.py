@@ -33,11 +33,6 @@ else:
 #transformacion de la cadena a minuscula
 dia_format = dia.lower()
 
-niveles={
-    "lunes":"inicial",
-    "martes":"intermedio",
-    "miercoles": "avanzado"
-}
 
 if dia_format =="lunes" or dia_format=="martes" or dia_format=="miercoles":
     print(f"El dia {dia_format} se tomo examen")
