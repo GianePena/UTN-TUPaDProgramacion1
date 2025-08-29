@@ -25,7 +25,8 @@ print(f"Soy {nombre} {apellido}, tengo {edad} y vivo en {lugar_de_residencia}")
 radio=input("Ingrese radio de un circulo: ")
 PI=3.14
 area=PI*(float(radio)**2)
-print(f"El area de un circulo de radio {radio} es {area}")
+perimetro=2*PI*radio
+print(f"El area de un circulo de radio {radio} es {area} y el perimetro es de {perimetro}")
 
 # 5) Crear un programa que pida al usuario una cantidad de segundos e imprima por pantalla a
 # cuántas horas equivale.
