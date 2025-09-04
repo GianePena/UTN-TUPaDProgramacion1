@@ -4,7 +4,6 @@ import random #ejrcicio pridra, papepl o tijera
 
 corrimiento=int(input("Ingrese corrimiento: "))
 
-
 abecedario=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 #Pedir 5 mensajes y cifrarlos segun el numero ingresado
 for oficial in range(5):
@@ -24,15 +23,13 @@ for oficial in range(5):
 
 
 
-
 #PIEDRA, PAPEL O TIJERA --> con bucle while
+print("PIEDRA, PAPEL O TIJERA")
 opciones={
     1:"Piedra",
     2:"Papel",
     3:"Tijera"
 }
-
-
 ganado=False
 
 while ganado==False:
