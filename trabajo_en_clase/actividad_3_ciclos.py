@@ -48,3 +48,5 @@ while True:
         nombre_del_menor=nombre
 
 print(f"La persona mas joven es {nombre_del_menor} con {menor_edad} años")
+
+
