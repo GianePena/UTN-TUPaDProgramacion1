@@ -9,7 +9,7 @@ print(tp.saludar_usuario(nombre_del_usuario))
 
 #Actividad 3
 nombre=input("Ingrese su nombre: ").capitalize()
-apellido=input("Ingrese su appelido: ").capitalize()
+apellido=input("Ingrese su apellido: ").capitalize()
 edad=int(input("Ingrese edad: "))
 lugar_de_residencia=input("Ingrese lugar de residencia: ").capitalize()
 
@@ -21,7 +21,8 @@ print(f"El area de un circulo de radio= {radio} es {tp.calcular_area_circulo(rad
 
 #Actividad 5
 segundos=int(input("Ingrese una cantidad de segundos para transforlas en horas: "))
-print(f"{segundos} es igual a {tp.segundos_a_horas(segundos)} horas")
+print(f"{segundos} es igual a {tp.segundos_a_horas(segundos):.2f}: horas")
+
 #Actividad 6
 numero=int(input("Ingrese un numero para obtener su tabla de multiplicar: "))
 tp.tabla_multiplicar(numero)
@@ -29,12 +30,12 @@ tp.tabla_multiplicar(numero)
 #Actividad 7
 numero_1=int(input("Ingrese un numero: "))
 numero_2=int(input("Ingrese otro numero: "))
-operaciones=tp.operaciones_basicas(numero_1, numero_2)
+resultados=tp.operaciones_basicas(numero_1, numero_2)
 
-print(f"Operaciones basicas: {operaciones}")
-
-for i in range(len(operaciones)):
-    print(f"Operacion{i} : {operaciones[i]}")
+print(f"Resultados de las operaciones basicas: {resultados}")
+operaciones=["suma", "resta", "multiplicacion", "division"]
+for o, total in zip(operaciones, resultados):
+    print(f"Operacion {o} : {total}")
 
 #Actividad 8
 peso=float(input("Ingrese peso en kg: "))

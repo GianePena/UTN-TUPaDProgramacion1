@@ -6,7 +6,7 @@ def imprimir_hola_mundo():
 
 # 2. Crear una función llamada saludar_usuario(nombre) que reciba como parámetro un nombre y devuelva un saludo personalizado. Por ejemplo, si se llama con saludar_usuario("Marcos"), deberá de- volver: “Hola Marcos!”. Llamar a esta función desde el programa principal solicitando el nombre al usuario.
 def saludar_usuario(nombre):
-    print(f"Hola {nombre}!")
+    return f"Hola {nombre}!"
 
 # 3. Crear una función llamada informacion_personal(nombre, apellido, edad, residencia) que reciba cuatro parámetros e imprima: “Soy [nombre] [apellido], tengo [edad] años y vivo en [residencia]”. Pe- dir los datos al usuario y llamar a esta función con los valores in- gresados.
 def informacion_personal(nombre, apellido, edad, residencia):
@@ -34,13 +34,12 @@ def suma(a,b):
 def resta(a,b):
     return a-b
 def division(a,b):
-    return a//b
+    return a/b
 def multiplicacion(a,b):
     return a*b
 def operaciones_basicas(a,b):
-    resultado=(suma(a,b), resta(a,b), division(a,b), multiplicacion(a,b))
+    resultado=[suma(a,b), resta(a,b), multiplicacion(a,b),division(a,b)]
     return resultado
-
 
 # 8. Crear una función llamada calcular_imc(peso, altura) que reciba el peso en kilogramos y la altura en metros, y devuelva el índice de masa corporal (IMC). Solicitar al usuario los datos y llamar a la fun- ción para mostrar el resultado con dos decimales.
 def calcular_imc(peso, altura):
