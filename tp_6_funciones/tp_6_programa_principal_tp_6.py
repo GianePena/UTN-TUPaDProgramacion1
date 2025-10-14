@@ -12,7 +12,6 @@ nombre=input("Ingrese su nombre: ").capitalize()
 apellido=input("Ingrese su apellido: ").capitalize()
 edad=int(input("Ingrese edad: "))
 lugar_de_residencia=input("Ingrese lugar de residencia: ").capitalize()
-
 tp.informacion_personal(nombre, apellido, edad, lugar_de_residencia)
 
 #Actividad 4
