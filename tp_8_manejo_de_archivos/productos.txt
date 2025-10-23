@@ -1,0 +1,4 @@
+Parlante,850000.0,20
+Mouse,15000.0,3
+Teclado,32000.0,12
+celular,1200000.0,5
